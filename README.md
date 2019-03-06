@@ -22,6 +22,8 @@ To install you only need to add the following to your EvoX header block inside y
 ```
 
 
+<script>
+
 // Configure your pop-in animations and delays 
 let myEvoXPopinTitle = 'Sale this Week',
 
