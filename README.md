@@ -50,7 +50,7 @@ const evoXListOfTriggerWords = ['maestro', 'furniture', 'chair', 'desk', 'office
 </script>
 
 <script type="text/javascript" src="https://staging.evocdn.io/dealer/1005/content/media/flyin-evox-app.js"></script> 
-<script>
+
 
 
 ```
