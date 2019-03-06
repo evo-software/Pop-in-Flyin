@@ -47,3 +47,11 @@ let myEvoXPopinTitle = 'Sale this Week',
 
 
 ```
+
+
+### Add the custom classes to the widget
+Go to your layout and find the widget that you want to hide/reveal. Open up the widget's settings and then add the below to the "Custom CSS"
+```
+myElement hide
+
+```
