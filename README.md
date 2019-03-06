@@ -21,8 +21,6 @@ To install you only need to add the following to your EvoX header block inside y
 
 ```
 
-<script type="text/javascript" async="" src="https://staging.evocdn.io/dealer/1005/content/media/flyin-evox-app.js"></script> 
-<script>
 
 // Configure your pop-in animations and delays 
 let myEvoXPopinTitle = 'Sale this Week',
@@ -41,9 +39,16 @@ let myEvoXPopinTitle = 'Sale this Week',
 		element: '.myElement',
 		closeAnimation: 'zoomOutDown',
 		//	closeDelay : '', 
-	};
+    };
+    
+// Add your list of trigger words that will activate the flyin pop-in
+const evoXListOfTriggerWords = ['maestro', 'furniture', 'chair', 'desk', 'office']
+
 
 </script>
+
+<script type="text/javascript" src="https://staging.evocdn.io/dealer/1005/content/media/flyin-evox-app.js"></script> 
+<script>
 
 
 ```
