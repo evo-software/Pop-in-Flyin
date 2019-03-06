@@ -15,4 +15,7 @@ let myEvoXPopinTitle = 'Sale this Week',
 		element: '.myElement',
 		closeAnimation: 'zoomOutDown',
 		//	closeDelay : '', 
-	};
+    };
+    
+// Add your list of trigger words that will activate the flyin pop-in
+const evoXListOfTriggerWords = ['maestro', 'furniture', 'chair', 'desk', 'office']
