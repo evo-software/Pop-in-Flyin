@@ -10,7 +10,7 @@ To install you only need to add the following to your EvoX header block inside y
 ``` 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-<link media="all" type="text/css" rel="stylesheet" href="https://github.com/evo-software/Pop-in-Flyin/raw/master/flyin-evox.css">
+<link media="all" type="text/css" rel="stylesheet" href="https://staging.evocdn.io/dealer/1005/content/media/flyin-evox.css">
 
 
 
@@ -21,7 +21,7 @@ To install you only need to add the following to your EvoX header block inside y
 
 ```
 
-<script type="text/javascript" async="" src="https://github.com/evo-software/Pop-in-Flyin/raw/master/flyin-evox-app.js"></script> 
+<script type="text/javascript" async="" src="https://staging.evocdn.io/dealer/1005/content/media/flyin-evox-app.js"></script> 
 <script>
 
 // Configure your pop-in animations and delays 
