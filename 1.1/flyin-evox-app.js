@@ -1,10 +1,5 @@
 
 
-// Add your list of trigger words that will activate the flyin pop-in
-const evoXListOfTriggerWords = ['maestro', 'furniture', 'chair', 'desk', 'office']
-
-
-
 const inktnerParent = document.querySelector('.myElement'),
 
 	inkform = document.querySelector('.myElement > .col-md-12');
