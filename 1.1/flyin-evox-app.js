@@ -1,7 +1,6 @@
 
 
 const inktnerParent = document.querySelector('.myElement'),
-
 	inkform = document.querySelector('.myElement > .col-md-12');
 
 // Add the Title , Close icon, warning messages	  
