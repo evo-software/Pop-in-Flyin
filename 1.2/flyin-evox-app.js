@@ -1,10 +1,8 @@
-
-
 const inktnerParent = document.querySelector('.myElement'),
 	inkform = document.querySelector('.myElement > .col-md-12');
 
 // Add the Title , Close icon, warning messages	  
-inktnerParent.insertAdjacentHTML('afterbegin', `<h1>${myEvoXPopinTitle}</h1>`);
+inktnerParent.insertAdjacentHTML('afterbegin', `<h1 class="popin-title">${myEvoXPopinTitle}</h1>`);
 inktnerParent.insertAdjacentHTML('afterbegin', `<i class="material-icons close">close</i>`);
 
 
@@ -78,6 +76,7 @@ function animateOpenCss(
 	node.classList.add('animated', openAnimation, openDelay);
 	node.classList.remove('hide');
 	nodeTwo.classList.add('hide');
+       
 	function handleAnimationEnd() {
 		node.classList.remove('animated', openAnimation, openDelay);
 		node.removeEventListener('animationend', handleAnimationEnd);
@@ -86,6 +85,8 @@ function animateOpenCss(
 	}
 
 	node.addEventListener('animationend', handleAnimationEnd);
+
+
 }
 
 // function to Close animate and handle animationEnd

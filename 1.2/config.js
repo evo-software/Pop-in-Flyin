@@ -18,4 +18,4 @@ let myEvoXPopinTitle = 'Sale this Week',
     };
     
 // Add your list of trigger words that will activate the flyin pop-in
-const evoXListOfTriggerWords = ['maestro', 'furniture', 'chair', 'desk', 'office']
+const evoXListOfTriggerWords = ['fundamental', 'bic+pen']
