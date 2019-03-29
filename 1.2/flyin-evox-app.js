@@ -9,16 +9,16 @@ inktnerParent.insertAdjacentHTML('afterbegin', `<i class="material-icons close">
 
 
 // Add if it's an image slider - this is really only for the discount example
-if (document.querySelector('.myElement').parentElement.classList.contains('singlebanner_wrapper')) {
+// if (document.querySelector('.myElement').parentElement.classList.contains('singlebanner_wrapper')) {
 
-	// Add the discount button
-	inktnerParent.insertAdjacentHTML('beforeend', `<a onclick="applyMyDiscount('${promotionPopinDiscX}')"><button id="applyDiscountButton" type="button" class="btn btn-primary btn-sm" ><i class='fa fa-circle-o-notch fa-spin'></i>Apply Discount</button></a>`);
+// 	// Add the discount button
+// 	inktnerParent.insertAdjacentHTML('beforeend', `<a onclick="applyMyDiscount('${promotionPopinDiscX}')"><button id="applyDiscountButton" type="button" class="btn btn-primary btn-sm" ><i class='fa fa-circle-o-notch fa-spin'></i>Apply Discount</button></a>`);
 
-	//Add item to the cart warning message
-	let findDiscountButton = document.querySelector('#applyDiscountButton');
-	findDiscountButton.insertAdjacentHTML('beforebegin', `<div class="alert alert-success" style="display: block;"><span class="message">Add a qualifying item to the cart and then apply your discount</span> <i class="fa fa-check-circle"></i></div>`);
+// 	//Add item to the cart warning message
+// 	let findDiscountButton = document.querySelector('#applyDiscountButton');
+// 	findDiscountButton.insertAdjacentHTML('beforebegin', `<div class="alert alert-success" style="display: block;"><span class="message">Add a qualifying item to the cart and then apply your discount</span> <i class="fa fa-check-circle"></i></div>`);
 
-}
+// }
 
 
 
@@ -214,25 +214,25 @@ function checkTriggerWords() {
 
 }
 
-// Apply the discount button
-function applyMyDiscount(myDiscountCode) {
-	let couponEnter = document.querySelector('.minicart_container #coupon_code'),
-		myButton = document.querySelector('button[data-url="https://stagingdemo.staging.evostore.io/cart/applycoupon"]');
+// // Apply the discount button
+// function applyMyDiscount(myDiscountCode) {
+// 	let couponEnter = document.querySelector('.minicart_container #coupon_code'),
+// 		myButton = document.querySelector('button[data-url="https://stagingdemo.staging.evostore.io/cart/applycoupon"]');
 
-	couponEnter.value = myDiscountCode;
+// 	couponEnter.value = myDiscountCode;
 
-	myButton.click();
+// 	myButton.click();
 
-	// show success message
-	let mySpinner = document.querySelector('.myElement i.fa.fa-circle-o-notch.fa-spin');
-	mySpinner.style.display = 'inline-block';
+// 	// show success message
+// 	let mySpinner = document.querySelector('.myElement i.fa.fa-circle-o-notch.fa-spin');
+// 	mySpinner.style.display = 'inline-block';
 
-	setTimeout(function () {
-		let applyDiscountButton = document.querySelector('#applyDiscountButton');
-		mySpinner.style.display = 'none';
-		applyDiscountButton.textContent = 'Discount Applied, Thanks';
+// 	setTimeout(function () {
+// 		let applyDiscountButton = document.querySelector('#applyDiscountButton');
+// 		mySpinner.style.display = 'none';
+// 		applyDiscountButton.textContent = 'Discount Applied, Thanks';
 
-	}, 2500);
+// 	}, 2500);
 
 
-}
+// }

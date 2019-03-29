@@ -1,7 +1,7 @@
 // Configure your pop-in animations and delays 
 let myEvoXPopinTitle = 'Sale this Week',
 
-	promotionPopinDiscX = 'NewVisitor',
+	// promotionPopinDiscX = 'NewVisitor',
 
 	evoXAnimateParams =
 	{
